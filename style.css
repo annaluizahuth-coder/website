@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Nothing+You+Could+Do&display=swap');
+
+body {
+  margin: 0;
+  background: #f7f3ed;
+  color: #1f1f1f;
+  font-family: 'Playfair Display', serif;
+}
+
+.site-header {
+  text-align: center;
+  padding: 3rem 1rem 1rem;
+}
+
+.site-header h1 {
+  font-family: 'Nothing You Could Do', cursive;
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+nav a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #1f1f1f;
+}
+
+.article-grid {
+  max-width: 800px;
+  margin: 4rem auto;
+  padding: 0 1rem;
+}
+
+.card {
+  margin-bottom: 3rem;
+}
+
+.card h2 a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.meta {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.excerpt {
+  font-size: 1.05rem;
+}
+
+.article {
+  max-width: 650px;
+  margin: 4rem auto;
+  padding: 0 1rem;
+}
+
+.article-meta {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.references {
+  font-size: 0.9rem;
+}
+
+.references li {
+  margin-bottom: 0.8rem;
+}
+
+.site-footer {
+  text-align: center;
+  padding: 2rem;
+  font-size: 0.8rem;
+  color: #777;
+}
